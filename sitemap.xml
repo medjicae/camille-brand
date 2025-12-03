@@ -1,9 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Page d'accueil -->
   <url>
     <loc>https://camille.medjigbodo.fr/</loc>
-    <lastmod>2025-12-03</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://camille.medjigbodo.fr/images/profile.jpg</image:loc>
+      <image:title>Dr Camille Medjigbodo</image:title>
+      <image:caption>Expert en systèmes d'information hospitalière Afrique</image:caption>
+    </image:image>
   </url>
+  
+  <!-- Page Expertise -->
+  <url>
+    <loc>https://camille.medjigbodo.fr/expertise.html</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Page Réalisations (importante pour GEMED2) -->
+  <url>
+    <loc>https://camille.medjigbodo.fr/realisations.html</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Page Contact -->
+  <url>
+    <loc>https://camille.medjigbodo.fr/contact.html</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
 </urlset>
